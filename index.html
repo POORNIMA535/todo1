@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Task</title>
+
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	
+	<header>
+		<h1>TODO</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+		</form>
+	</header>
+	<main>
+		<div class="task-list">
+			<h2>Tasks</h2>
+
+			<div id="tasks">
+            </div>
+		</div>
+	</main>
+
+	<script src="todo.js"></script>
+</body>
+</html>
